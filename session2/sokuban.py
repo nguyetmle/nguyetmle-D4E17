@@ -20,7 +20,7 @@ while playing:
         player_y = player_y + 1
     elif move == 'a':
         player_x = player_x - 1
-    else:
+    elif move == 'd':
         player_x = player_x + 1
 
     
