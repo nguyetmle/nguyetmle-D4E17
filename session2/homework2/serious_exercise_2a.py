@@ -1,7 +1,7 @@
 n = int(input('enter n = '))
 for i in range(n):
     if i % 2 == 0:
-        print('1', end = ' ')  
+        print('1', end = '\n')  
     else:
         print('0', end = ' ')
 

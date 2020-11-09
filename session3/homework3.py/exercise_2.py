@@ -3,7 +3,7 @@ print('Hello, my name is Hiep and these are my sheep sizes')
 print(sheep_sizes)
 
 for j in range(1,4):
-    print(f'month{j}')
+    print(f'month {j}')
     max_sheep = max(sheep_sizes)
     print(f'Now my biggest sheep has size {max_sheep} lets shear it')
 
@@ -16,10 +16,12 @@ for j in range(1,4):
         sheep_sizes[i] += 50
     print('One month has passed, now here is my flock')
     print(sheep_sizes)
+    print(end= '\n')
 
 print('My flock has size in total:', sum(sheep_sizes))
 money = int(sum(sheep_sizes)) * 2 
 print(f'I would get {sum(sheep_sizes)} * 2$ = {money}$')
+
 
 
 
