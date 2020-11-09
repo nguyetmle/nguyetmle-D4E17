@@ -11,10 +11,10 @@ for i in range(5):
     left(360/5)
 mainloop()
 
-for edge in range(3,6):
-    print(edge)
-    for i in range(edge):
-        forward(100)
-        left(360/edge)
-mainloop()
+# for edge in range(3,6):
+#     print(edge)
+#     for i in range(edge):
+#         forward(100)
+#         left(360/edge)
+# mainloop()
 

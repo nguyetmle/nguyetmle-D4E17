@@ -1,15 +1,10 @@
 from turtle import * # lên docs.python.org đọc về các lệnh của turtle
 
 speed(-1)
-for i in range(15000): # vòng lặp lại 3 lần
-    forward(100) # độ dài đường vẽ thẳng  #block of code
-    left(90) # góc xoay trái
-    forward(100)
-    left(90)
-    forward(100)
-    left(90)
-    forward(100)
-    left(90)
+for i in range(15000): 
+    for i range(4)
+        forward(100) # độ dài đường vẽ thẳng  #block of code
+        left(90) # góc xoay trái
 
     right(7)
 
